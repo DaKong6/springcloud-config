@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: springcloud-config-hbue-dev
+---
+spring:
+  profiles: test
+  applicaion:
+    name: springcloud-config-hbue-test
